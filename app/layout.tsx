@@ -1,8 +1,8 @@
 // 'use client'
 import './globals.css'
-import Link from 'next/link'
-import { Metadata } from 'next'
-import ResponsiveMenu from './components/ResponsiveMenu'
+// import Link from 'next/link'
+// import { Metadata } from 'next'
+// import ResponsiveMenu from './components/ResponsiveMenu'
 
 // export const metadata: Metadata = {
 //   title: 'Anti-Corruption Initiative',
