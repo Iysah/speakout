@@ -10,15 +10,15 @@ export default function ContactPage() {
       <div className='relative h-[90vh] flex items-center justify-center w-[100%] flex-col'>
         <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
         <p className="mb-4">
-          If you have any questions or concerns, please don't hesitate to reach out to us using the information below:
+          If you have any questions or concerns, please don&apos;t hesitate to reach out to us using the information below:
         </p>
         <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-          <p className="mb-2"><strong>Email:</strong> contact@anticorruption.org</p>
-          <p className="mb-2"><strong>Phone:</strong> +1 (555) 123-4567</p>
-          <p className="mb-2"><strong>Address:</strong> 123 Transparency Street, Integrity City, 12345</p>
+          <p className="mb-2"><strong>Email:</strong> hello@speakout.com</p>
+          <p className="mb-2"><strong>Phone:</strong>070-264-66500</p>
+          <p className="mb-2"><strong>Address:</strong> Labspace, No 7, Piggery Road, David Umaru Estate, Tunga, Minna, Niger state.</p>
         </div>
         <p className="mt-4">
-          For urgent matters or to report a case of corruption, please use our dedicated reporting form on the "Report Case" page.
+          For urgent matters or to report a case of corruption, please use our dedicated reporting form on the &quot;Report Case&quot;` page.
         </p>
       </div>
       <Footer />

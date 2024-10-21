@@ -3,7 +3,6 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { Layout } from 'lucide-react'
 import Navbar from '@/app/components/navbar'
 import Footer from '@/app/components/footer'
 

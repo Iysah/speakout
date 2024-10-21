@@ -1,7 +1,6 @@
 import Layout from '../layout'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Shield, FileText, MessageSquare } from 'lucide-react'
 import HeroImage from '../hero-img.png'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
@@ -33,7 +32,7 @@ export default function HomePage() {
 
         <div className="m-10 flex items-center justify-center flex-col">
             <h1 className="text-4xl md:text-6xl font-bold my-8">SpeakOut</h1>
-            <p className="text-xl md:text-2xl leading-7 tracking-wide my-8 px-10">Speak out is an anti-corruption and bribery app that users can report instances of bribery and corruption without fear of retaliation.The app guarantees anonymity by encrypting user data ensuring secure and confidential report submission. It also  provides key information on citizens' rights, the negative impacts of corruption,  and actionable steps to promote transparency and accountability It can also be  used by both literates and illiterate that is can be used in rural and urban areas</p>
+            <p className="text-xl md:text-2xl leading-7 tracking-wide my-8 px-10">Speak out is an anti-corruption and bribery app that users can report instances of bribery and corruption without fear of retaliation.The app guarantees anonymity by encrypting user data ensuring secure and confidential report submission. It also  provides key information on citizens&apos; rights, the negative impacts of corruption,  and actionable steps to promote transparency and accountability It can also be  used by both literates and illiterate that is can be used in rural and urban areas</p>
         </div>
         <Footer />
     </Layout>
