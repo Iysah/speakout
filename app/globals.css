@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  body {
+    @apply text-gray-900 bg-gray-50;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-semibold text-white transition-colors duration-300;
+  }
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark;
+  }
+  .btn-secondary {
+    @apply bg-secondary hover:bg-secondary-dark;
+  }
+}
