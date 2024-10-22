@@ -21,8 +21,8 @@ export default function HomePage() {
           className="absolute z-0"
         />
         <div className="relative z-10 text-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Shine your eyes, na better <span className='text-green-500 capitalize'>naija</span> we want.</h1>
-          <p className="text-xl md:text-2xl mb-8">Join our mission for a transparent and just society</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4"> Report anonymously or Dial 987.</h1>
+          <p className="text-xl md:text-2xl mb-8"> Shine your eyes, na better <span className='text-green-500 capitalize'>naija</span> we want.</p>
           <Link 
             href="/report" 
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300"
@@ -49,7 +49,7 @@ export default function HomePage() {
             {/* Easy Submission Card */}
             <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
               <FileText className="w-16 h-16 text-blue-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Easy Submission</h3>
+              <h3 className="text-xl font-semibold mb-2">Easy Report Submission</h3>
               <p className="text-center text-gray-600">
                 Our user-friendly form makes it simple to submit detailed reports quickly and efficiently.
               </p>

@@ -13,8 +13,8 @@ export default function ContactPage() {
           If you have any questions or concerns, please don&apos;t hesitate to reach out to us using the information below:
         </p>
         <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-          <p className="mb-2"><strong>Email:</strong> hello@speakout.com</p>
-          <p className="mb-2"><strong>Phone:</strong>070-264-66500</p>
+          <p className="mb-2"><strong>Email:</strong> <a href='mailto:speakoutniaja24@gmail.com'>speakoutniaja24@gmail.com</a></p>
+          <p className="mb-2"><strong>Phone:</strong> <a href="">070-264-66500</a></p>
           <p className="mb-2"><strong>Address:</strong> Labspace, No 7, Piggery Road, David Umaru Estate, Tunga, Minna, Niger state.</p>
         </div>
         <p className="mt-4">

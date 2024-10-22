@@ -8,13 +8,25 @@ import Footer from '../components/footer'
 export default function FeedbackPage() {
   const [feedback, setFeedback] = useState('')
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Here you would typically send the feedback to your backend
-    console.log('Feedback submitted:', feedback)
-    alert('Thank you for your feedback!')
-    setFeedback('')
-  }
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>, feedback: string) => {
+    e.preventDefault();
+  
+    const email = 'speakoutniaja24@gmail.com'; // Replace with the email you want to send to
+    const subject = 'User Feedback';
+    const body = encodeURIComponent(feedback);
+  
+    // Construct the mailto link
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+  
+    // Use window.location.href to open the email client
+    window.location.href = mailtoLink;
+  
+    // Inform user (optional)
+    alert('Opening your email client...');
+  
+    // Reset feedback after submission
+    setFeedback('');
+  };
 
   return (
     <Layout>
@@ -24,7 +36,7 @@ export default function FeedbackPage() {
         <p className="mb-4">
           Your feedback is valuable to us. It helps us improve our services and better combat corruption. Please share your thoughts, suggestions, or concerns below:
         </p>
-        <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-[100%] max-w-7xl">
+        <form onSubmit={(e) => handleSubmit(e, feedback)} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-[100%] max-w-7xl">
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="feedback">
               Your Feedback
